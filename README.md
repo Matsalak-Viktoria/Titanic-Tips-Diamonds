@@ -25,3 +25,27 @@ The main objectives of this project are:
 - Compare different feature scaling techniques:
     - StandardScaler
     - MinMaxScaler
+ 
+## Datasets
+ 
+## Technologies
+ - Python
+ - Pandas
+ - NumPy
+ - Scikit-learn
+ - Matplotlib
+ - Seaborn
+
+## Methods
+
+## Evaluation Metrics
+### Classification
+- Accuracy
+- Precision (Weighted)
+- Recall (Weighted)
+- F1-score (Weighted)
+### Regression
+- RMSE (Root Mean Squared Error)
+- MAE (Mean Absolute Error)
+ 
+  
