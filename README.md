@@ -1,6 +1,6 @@
 # Passenger Survival, Tip Size, Diamond Price Prediction
 
-[View code](https://github.com/Matsalak-Viktoria/Product-Recommendation-Prediction)
+[View code]([https://github.com/Matsalak-Viktoria/Product-Recommendation-Prediction](https://github.com/Matsalak-Viktoria/Titanic-Tips-Diamonds/blob/main/Titanic_Tips_Diamonds.ipynb))
 
 ## Overview
 This project explores the implementation and evaluation of machine learning pipelines for solving three different prediction tasks using real-world datasets.
