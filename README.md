@@ -6,7 +6,6 @@ This project explores the implementation and evaluation of machine learning pipe
 The main goal of the project is not only to build predictive models, but also to investigate how different data preprocessing techniques influence the performance of K-Nearest Neighbors (KNN) models.
 
 The project focuses on the following prediction problems:
-
 - Titanic Dataset - Predicting passenger survival (classification)
 - Tips Dataset - Predicting tip amount (regression)
 - Diamonds Dataset - Predicting diamond price (regression)
@@ -16,7 +15,6 @@ For each task, multiple experiments were conducted using different preprocessing
 ## Objectives
 
 The main objectives of this project are:
-
 - Build machine learning pipelines for solving classification and regression tasks.
 - Investigate how different preprocessing strategies (missing value imputation and feature scaling) influence KNN model performance.
 - Analyze and compare experimental results to identify the most effective configurations.
@@ -27,7 +25,6 @@ The main objectives of this project are:
 
 ## Workflow
 The project follows a complete machine learning pipeline:
-
 1. Exploratory Data Analysis (EDA)
 2. Data Cleaning
 3. Missing Value Imputation
