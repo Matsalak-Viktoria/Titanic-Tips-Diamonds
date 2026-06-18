@@ -22,21 +22,21 @@ The main objectives of this project are:
 ## Datasets
 
 ### Titanic Dataset
-- **Survived**:
-- **Pclass**:	
-- **Sex**:
-- **Age**:
-- **Sibsp**:
-- **Parch**:
-- **Fare**:
-- **Embarked**:
-- **Class**:
-- **Who**:
-- **Adult_male**:
-- **Deck**:
-- **Embark_town**:
-- **Alive**:
-- **Alone**:
+- **Survived**: Target variable. Indicates whether the passenger survived (0 = No, 1 = Yes).
+- **Pclass**: Passenger ticket class (1 = First, 2 = Second, 3 = Third). Represents socio-economic status.	
+- **Sex**: Passenger gender (male / female).
+- **Age**: Age of the passenger in years.
+- **Sibsp**: Number of siblings or spouses traveling with the passenger aboard the ship.
+- **Parch**: Number of parents or children traveling with the passenger aboard the ship.
+- **Fare**: Ticket fare paid by the passenger.
+- **Embarked**: Port of embarkation where the passenger boarded the ship (C = Cherbourg, Q = Queenstown, S = Southampton).
+- **Class**: Text representation of passenger class (First, Second, Third). Contains the same information as pclass.
+- **Who**: Passenger category based on age and gender (man, woman, child). Derived from sex and age.
+- **Adult_male**: Indicates whether the passenger is an adult male (True / False). Derived from sex and age.
+- **Deck**: Deck (section of the ship) where the passenger’s cabin was located. Contains many missing values.
+- **Embark_town**: Full name of the embarkation location (Cherbourg, Queenstown, Southampton). Duplicate of embarked.
+- **Alive**: Text version of survival status (yes / no). Duplicate of target variable survived, causing data leakage.
+- **Alone**: Indicates whether the passenger was traveling alone (True / False). Can be inferred from sibsp and parch.
 
 ### Tips Dataset
 - **Total_bill**:
