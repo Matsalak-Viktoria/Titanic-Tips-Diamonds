@@ -38,6 +38,27 @@ The main objectives of this project are:
 - **Alive**:
 - **Alone**:
 
+### Tips Dataset
+- **Total_bill**:
+- **Tip**:
+- **Sex**:
+- **Smoker**:
+- **Day**:
+- **Time**:
+- **Size**:
+
+### Diamonds Dataset
+- **Carat**:
+- **Cut**:
+- **Color**:
+- **Clarity**:
+- **Depth**:
+- **Table**:
+- **Price**:
+- **X**:
+- **Y**:
+- **Z**:
+
 ## Workflow
 The project follows a complete machine learning pipeline:
 1. Exploratory Data Analysis (EDA)
