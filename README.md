@@ -18,13 +18,8 @@ For each task, multiple experiments were conducted using different preprocessing
 The main objectives of this project are:
 
 - Build machine learning pipelines for solving classification and regression tasks.
-- Investigate how different preprocessing strategies affect KNN model performance.
-- Compare different missing value imputation methods:
-    - Mean Imputation
-    - Median Imputation
-- Compare different feature scaling techniques:
-    - StandardScaler
-    - MinMaxScaler
+- Investigate how different preprocessing strategies influence KNN model performance.
+- Analyze and compare experimental results to identify the most effective configurations.
  
 ## Datasets
  
