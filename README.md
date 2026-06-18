@@ -22,6 +22,22 @@ The main objectives of this project are:
 - Analyze and compare experimental results to identify the most effective configurations.
  
 ## Datasets
+
+### Titanic Dataset
+
+## Workflow
+The project follows a complete machine learning pipeline:
+
+1. Exploratory Data Analysis (EDA)
+2. Data Cleaning
+3. Missing Value Imputation
+4. Feature Selection
+5. Feature Scaling
+6. Model Training
+7. Hyperparameter Tuning
+8. Cross Validation
+9. Performance Evaluation
+10. Comparison of preprocessing strategies
  
 ## Technologies
  - Python
