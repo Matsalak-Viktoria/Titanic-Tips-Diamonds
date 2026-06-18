@@ -11,7 +11,7 @@ The project focuses on the following prediction problems:
 - Tips Dataset - Predicting tip amount (regression)
 - Diamonds Dataset - Predicting diamond price (regression)
 
-For each task, multiple experiments were conducted using different preprocessing strategies, model configurations, and evaluation procedures in order to compare performance, robustness, and model stability.
+For each task, multiple experiments were conducted using different preprocessing strategies and nested cross-validation for hyperparameter optimization and reliable model evaluation in order to compare predictive performance, robustness, and stability across different configurations.
 
 ## Objectives
 
