@@ -22,6 +22,21 @@ The main objectives of this project are:
 ## Datasets
 
 ### Titanic Dataset
+survived
+pclass	
+sex
+age
+sibsp
+parch
+fare
+embarked
+class
+who
+adult_male
+deck	
+embark_town
+alive	
+alone
 
 ## Workflow
 The project follows a complete machine learning pipeline:
