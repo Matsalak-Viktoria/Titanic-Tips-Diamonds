@@ -39,13 +39,13 @@ The main objectives of this project are:
 - **Alone**: Indicates whether the passenger was traveling alone (True / False). Can be inferred from sibsp and parch.
 
 ### Tips Dataset
-- **Total_bill**:
-- **Tip**:
-- **Sex**:
-- **Smoker**:
-- **Day**:
-- **Time**:
-- **Size**:
+- **Total_bill**: Total restaurant bill amount before the tip.
+- **Tip**: Target variable. Tip amount left by the customer.
+- **Sex**: Gender of the customer (male / female).
+- **Smoker**: Indicates whether the customer is a smoker (Yes / No).
+- **Day**: Day of the week when the visit occurred (Thur, Fri, Sat, Sun).
+- **Time**: Time of day when the meal took place (Lunch / Dinner).
+- **Size**: Number of people in the dining party.
 
 ### Diamonds Dataset
 - **Carat**:
