@@ -60,17 +60,36 @@ The main objectives of this project are:
 - **Z**: Depth (height) of the diamond in millimeters.
 
 ## Workflow
-The project follows a complete machine learning pipeline:
-1. Exploratory Data Analysis (EDA)
-2. Data Cleaning
-3. Missing Value Imputation
-4. Feature Selection
-5. Feature Scaling
-6. Model Training
-7. Hyperparameter Tuning
-8. Cross Validation
-9. Performance Evaluation
-10. Comparison of preprocessing strategies
+The project workflow includes:
+1. Exploratory Data Analysis (EDA)  
+2. Feature Selection (only for Titanic dataset) 
+3. Pipeline Construction
+4. Outer Cross-Validation Split  
+5. Inner Cross-Validation with GridSearchCV (Hyperparameter Optimization)   
+5. Data Preprocessing (Imputation, Encoding, Scaling)  
+7. KNN Model Training and Prediction  
+8. Performance Evaluation    
+9. Result Analysis and Comparison of Different Preprocessing Strategies
+
+1. Data Analysis and Preparation  
+2. Feature Selection  
+3. Pipeline Construction  
+4. Outer Cross-Validation Split  
+5. Inner Cross-Validation with GridSearchCV  
+6. Data Preprocessing and Model Training  
+7. Prediction Generation  
+8. Performance Evaluation  
+9. Comparison of Different Preprocessing Strategies
+
+1. Data Exploration  
+2. Data Cleaning and Feature Selection  
+3. Pipeline Construction  
+4. Nested Cross-Validation Setup  
+5. Preprocessing and Feature Transformation  
+6. Hyperparameter Tuning with GridSearchCV  
+7. KNN Model Training and Prediction  
+8. Performance Evaluation  
+9. Experimental Comparison
  
 ## Technologies
  - Python
