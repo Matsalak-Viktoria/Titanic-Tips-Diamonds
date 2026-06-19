@@ -48,16 +48,16 @@ The main objectives of this project are:
 - **Size**: Number of people in the dining party.
 
 ### Diamonds Dataset
-- **Carat**:
-- **Cut**:
-- **Color**:
-- **Clarity**:
-- **Depth**:
-- **Table**:
-- **Price**:
-- **X**:
-- **Y**:
-- **Z**:
+- **Carat**: Weight of the diamond. Usually the strongest factor affecting price.
+- **Cut**: Quality of the diamond cut (Fair, Good, Very Good, Premium, Ideal).
+- **Color**: Diamond color grade from D (best) to J (worst).
+- **Clarity**: Measure of internal imperfections (I1 → IF, where IF is best).
+- **Depth**: Total depth percentage of the diamond.
+- **Table**: Width of the top surface relative to the widest point of the diamond.
+- **Price**: Target variable. Price of the diamond in US dollars.
+- **X**: Length of the diamond in millimeters.
+- **Y**: Width of the diamond in millimeters.
+- **Z**: Depth (height) of the diamond in millimeters.
 
 ## Workflow
 The project follows a complete machine learning pipeline:
