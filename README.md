@@ -145,11 +145,17 @@ The project workflow includes:
 - MAE (Mean Absolute Error)
 
 ## Results
-### Passenger survival:  
+### Passenger survival (Classification):  
 
 ![Metrics](metrics_eng.jpg)
 
 All four KNN models demonstrated quite high and stable performance: the mean values of Accuracy, Precision, Recall, and F1 differ only slightly, indicating that the models perform in a balanced manner without favoring any single class, and the low standard deviations further confirm the robustness of the results to changes in the training and test sets across different folds. Models using StandardScaler (mean and median) have better mean results compared to MinMaxScaler. Regarding the impact of the "impute strategy" choice, the results also depend on the scaling method: with StandardScaler, the median provides indeed higher performance, whereas with MinMaxScaler, the mean demonstrated slightly better mean metrics. This means that the choice of imputation and scaling strategies should be selected based on the data distribution and the presence of outliers. Considering the overall results, the model with the parameters impute_strategy=median, scale_strategy=standard can be considered the most optimal, as it provided the best combination of mean results and stability.
+
+### Size of tip (Regression):  
+
+![Metrics](Four_models_eng.jpg)
+
+According to the experimental results, all four KNN models performed well; however, the models using StandardScaler proved to be the most accurate and stable. They have lower RMSE and MAE values, as well as smaller standard deviations compared to those using MinMaxScaler. Both imputation strategies, mean and median, demonstrated identical results (within the same scaling method), so the choice between them depends on the distribution and the presence of outliers in the data. Therefore, the optimal configuration is to use StandardScaler combined with either imputation strategy.
 
 #### Mean value of metrics across folds:  
 accuracy:&emsp;0.811481  
