@@ -147,7 +147,7 @@ The project workflow includes:
 ## Results
 ### Passenger survival:  
 
-![Мой рабочий стол](my-desctop.png)
+![Metrics](metrics_eng.png)
 
 #### Mean value of metrics across folds:  
 accuracy:&emsp;0.811481  
