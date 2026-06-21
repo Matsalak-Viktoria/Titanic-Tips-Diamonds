@@ -62,17 +62,36 @@ The main objectives of this project are:
 ## Workflow
 The project workflow includes:
 1. Exploratory Data Analysis (EDA)  
+2. Feature Selection (only for Titanic dataset)
+3. Model Training and Evaluation
+   - Outer Cross-Validation
+      - Train/Test split
+      - Pipeline Construction
+      - Inner Cross-Validation with GridSearchCV
+         - Data Preprocessing (Imputation, Encoding, Scaling)
+         - KNN Model Training
+         - Hyperparameter Optimization
+      - Prediction on test fold
+      - Performance Evaluation
+4. Result Analysis
+   - Comparison of Different Preprocessing Strategies
+   - Selecting the optimal configuration
+
+The project workflow includes:
+1. Exploratory Data Analysis (EDA)  
 2. Feature Selection (only for Titanic dataset)  
 3. Outer Cross-Validation  
    - Train/Test split
    - Pipeline Construction
    - Prediction on test fold
    - Performance Evaluation
-4. Inner Cross-Validation with GridSearchCV (Hyperparameter Optimization)
+4. Inner Cross-Validation with GridSearchCV
    - Data Preprocessing (Imputation, Encoding, Scaling)
-   - Hyperparameter Tuning
-   - KNN Model Training 
-5. Result Analysis (Comparison of Different Preprocessing Strategies)
+   - KNN Model Training
+   - Hyperparameter Tuning 
+5. Result Analysis
+   - Comparison of Different Preprocessing Strategies
+   - Selecting the optimal configuration
    
 The project workflow includes:
 1. Exploratory Data Analysis (EDA)  
