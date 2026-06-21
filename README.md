@@ -145,4 +145,19 @@ The project workflow includes:
 - MAE (Mean Absolute Error)
 
 ## Results
+### Passenger survival:  
+
+![Мой рабочий стол](my-desctop.png)
+
+#### Mean value of metrics across folds:  
+accuracy:&emsp;0.811481  
+precision:&ensp;&nbsp;0.816838  
+recall:&emsp;&emsp;&ensp;0.811481  
+f1:&emsp;&emsp;&emsp;&emsp;0.804918  
+
+#### Standard deviation of metrics across folds:  
+accuracy:&emsp;0.025263  
+precision:&ensp;&nbsp;0.027506  
+recall:&emsp;&emsp;&ensp;0.025263  
+f1:&emsp;&emsp;&emsp;&emsp;0.026987  
   
