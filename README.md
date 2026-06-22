@@ -100,6 +100,9 @@ The project workflow includes:
 - MAE (Mean Absolute Error)
 
 ## Results
+
+### Description of model results and performance:
+
 ### Passenger survival (Classification):  
 
 ![Metrics](metrics_eng.jpg)
