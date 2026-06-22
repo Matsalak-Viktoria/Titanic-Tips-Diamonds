@@ -119,17 +119,5 @@ According to the experimental results, all four KNN models performed well; howev
 
 ![Metrics](Four_models_2_eng.jpg)
 
-The conducted experiment showed that all four KNN models share similar performance; however, certain differences can be highlighted depending on the scaling method. Models using MinMaxScaler demonstrate lower mean errors (RMSE, MAE), indicating more accurate predictions, but exhibit slightly lower stability due to higher standard deviations. In contrast, models using StandardScaler are more stable, though they underperform in accuracy. Imputing missing values using either the mean or median yielded identical results, meaning the choice between them does not affect prediction quality. Consequently, the most balanced solution is to use MinMaxScaler combined with either imputation strategy.
-
-#### Mean value of metrics across folds:  
-accuracy:&emsp;0.811481  
-precision:&ensp;&nbsp;0.816838  
-recall:&emsp;&emsp;&ensp;0.811481  
-f1:&emsp;&emsp;&emsp;&emsp;0.804918  
-
-#### Standard deviation of metrics across folds:  
-accuracy:&emsp;0.025263  
-precision:&ensp;&nbsp;0.027506  
-recall:&emsp;&emsp;&ensp;0.025263  
-f1:&emsp;&emsp;&emsp;&emsp;0.026987  
+The conducted experiment showed that all four KNN models share similar performance; however, certain differences can be highlighted depending on the scaling method. Models using MinMaxScaler demonstrate lower mean errors (RMSE, MAE), indicating more accurate predictions, but exhibit slightly lower stability due to higher standard deviations. In contrast, models using StandardScaler are more stable, though they underperform in accuracy. Imputing missing values using either the mean or median yielded identical results, meaning the choice between them does not affect prediction quality. Consequently, the most balanced solution is to use MinMaxScaler combined with either imputation strategy. 
   
