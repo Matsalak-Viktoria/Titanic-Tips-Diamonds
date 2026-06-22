@@ -66,64 +66,17 @@ The project workflow includes:
 3. Model Training and Evaluation
    - Outer Cross-Validation
       - Train/Test split
-      - Pipeline Construction
+      - Pipeline Setup
       - Inner Cross-Validation with GridSearchCV
          - Data Preprocessing (Imputation, Encoding, Scaling)
          - KNN Model Training
          - Hyperparameter Optimization
-      - Prediction on test fold
-      - Performance Evaluation
+      - Prediction on Unseen Test Data
+      - Model Evaluation  
 4. Result Analysis
    - Comparison of Different Preprocessing Strategies
-   - Selecting the optimal configuration
+   - Best Configuration Selection
 
-The project workflow includes:
-1. Exploratory Data Analysis (EDA)  
-2. Feature Selection (only for Titanic dataset)  
-3. Outer Cross-Validation  
-   - Train/Test split
-   - Pipeline Construction
-   - Prediction on test fold
-   - Performance Evaluation
-4. Inner Cross-Validation with GridSearchCV
-   - Data Preprocessing (Imputation, Encoding, Scaling)
-   - KNN Model Training
-   - Hyperparameter Tuning 
-5. Result Analysis
-   - Comparison of Different Preprocessing Strategies
-   - Selecting the optimal configuration
-   
-The project workflow includes:
-1. Exploratory Data Analysis (EDA)  
-2. Feature Selection (only for Titanic dataset) 
-3. Pipeline Construction
-4. Outer Cross-Validation Split  
-5. Inner Cross-Validation with GridSearchCV (Hyperparameter Optimization)   
-5. Data Preprocessing (Imputation, Encoding, Scaling)  
-7. KNN Model Training and Prediction  
-8. Performance Evaluation    
-9. Result Analysis and Comparison of Different Preprocessing Strategies
-
-1. Data Analysis and Preparation  
-2. Feature Selection  
-3. Pipeline Construction  
-4. Outer Cross-Validation Split  
-5. Inner Cross-Validation with GridSearchCV  
-6. Data Preprocessing and Model Training  
-7. Prediction Generation  
-8. Performance Evaluation  
-9. Comparison of Different Preprocessing Strategies
-
-1. Data Exploration  
-2. Data Cleaning and Feature Selection  
-3. Pipeline Construction  
-4. Nested Cross-Validation Setup  
-5. Preprocessing and Feature Transformation  
-6. Hyperparameter Tuning with GridSearchCV  
-7. KNN Model Training and Prediction  
-8. Performance Evaluation  
-9. Experimental Comparison
- 
 ## Technologies
  - Python
  - Pandas
