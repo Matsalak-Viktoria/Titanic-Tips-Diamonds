@@ -15,7 +15,10 @@ For each task, multiple experiments were conducted using different preprocessing
 ## Objectives
 
 The main objectives of this project are:
-- Build machine learning pipelines for solving classification and regression tasks.
+- Build machine learning pipelines for solving classification and regression tasks:
+  - **Passenger survival prediction** - Predict whether a passenger survived based on passenger information.
+  - **Tip size prediction** - Predict the size of a restaurant tip based on customer and bill information.
+  - **Diamond price prediction** - Predict the price of a diamond based on its physical characteristics.
 - Investigate how different preprocessing strategies (missing value imputation and feature scaling) influence KNN model performance.
 - Analyze and compare experimental results to identify the most effective configurations.
  
