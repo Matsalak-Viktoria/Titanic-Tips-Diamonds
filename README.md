@@ -121,6 +121,13 @@ The project workflow includes:
 - RMSE (Root Mean Squared Error)
 - MAE (Mean Absolute Error)
 
+### Experimental Configurations
+Different preprocessing combinations were tested:
+- Mean Imputation + StandardScaler
+- Median Imputation + StandardScaler
+- Mean Imputation + MinMaxScaler
+- Median Imputation + MinMaxScaler
+
 ## Results
 
 The figures below compare the performance of different KNN configurations across all prediction tasks.
