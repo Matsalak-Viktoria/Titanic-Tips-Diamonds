@@ -130,7 +130,7 @@ Different preprocessing combinations were tested:
 
 ## Results
 
-The figures below compare the performance of different KNN configurations across all prediction tasks.
+The following figures summarize model performance under different preprocessing configurations for each prediction task.
 
 ### Model Performance Comparison for Each Prediction Task:
 
