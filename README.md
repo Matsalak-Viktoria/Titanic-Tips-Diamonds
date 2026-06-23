@@ -90,34 +90,34 @@ The project workflow includes:
 ## Methods
 ### Data Preprocessing
 
-Numerical features:
+**Numerical features**:
 - Missing value imputation (Mean / Median)
 - Feature scaling (StandardScaler / MinMaxScaler)
 
-Categorical features:
+**Categorical features**:
 - Most frequent value imputation
 - One-Hot Encoding
 
 ### Machine Learning Model
 - K-Nearest Neighbors (KNN)
 
-Hyperparameters optimized:
+**Hyperparameters optimized**:
 - Number of neighbors (n_neighbors)
 - Weight function (uniform, distance)
 
 ### Validation Strategy
-Nested Cross-Validation:
+**Nested Cross-Validation**:
 - Outer CV for unbiased model evaluation
 - Inner CV with GridSearchCV for hyperparameter optimization
 
 ### Evaluation Metrics
-Classification:
+**Classification**:
 - Accuracy
 - Precision (Weighted)
 - Recall (Weighted)
 - F1-score (Weighted)
 
-Regression:
+**Regression**:
 - RMSE (Root Mean Squared Error)
 - MAE (Mean Absolute Error)
 
