@@ -88,7 +88,7 @@ The project workflow includes:
  - Seaborn
 
 ## Methods
-#### Data Preprocessing
+### Data Preprocessing
 
 Numerical features:
 - Missing value imputation (Mean / Median)
@@ -98,14 +98,14 @@ Categorical features:
 - Most frequent value imputation
 - One-Hot Encoding
 
-#### Model
+### Model
 K-Nearest Neighbors (KNN)
 
 Hyperparameters:
 - n_neighbors
 - weights (uniform, distance)
 
-#### Validation Strategy
+### Validation Strategy
 Nested Cross-Validation:
 - Outer CV for unbiased model evaluation
 - Inner CV with GridSearchCV for hyperparameter optimization
