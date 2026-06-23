@@ -98,25 +98,26 @@ Categorical features:
 - Most frequent value imputation
 - One-Hot Encoding
 
-### Model
-K-Nearest Neighbors (KNN)
+### Machine Learning Model
+- K-Nearest Neighbors (KNN)
 
-Hyperparameters:
-- n_neighbors
-- weights (uniform, distance)
+Hyperparameters optimized:
+- Number of neighbors (n_neighbors)
+- Weight function (uniform, distance)
 
 ### Validation Strategy
 Nested Cross-Validation:
 - Outer CV for unbiased model evaluation
 - Inner CV with GridSearchCV for hyperparameter optimization
 
-## Evaluation Metrics
-### Classification
+### Evaluation Metrics
+Classification:
 - Accuracy
 - Precision (Weighted)
 - Recall (Weighted)
 - F1-score (Weighted)
-### Regression
+
+Regression:
 - RMSE (Root Mean Squared Error)
 - MAE (Mean Absolute Error)
 
