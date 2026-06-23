@@ -103,7 +103,7 @@ The project workflow includes:
 
 The figures below compare the performance of different KNN configurations across all prediction tasks.
 
-### Model performance comparison for each prediction task
+### Model Performance Comparison for Each Prediction Task:
 
 ### Passenger Survival Prediction (Classification)  
 
