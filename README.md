@@ -102,12 +102,12 @@ The project workflow includes:
 - K-Nearest Neighbors (KNN)
 
 **Hyperparameters optimized**:
-- Number of neighbors (n_neighbors)
+- Number of neighbors (k)
 - Weight function (uniform, distance)
 
 ### Validation Strategy
 **Nested Cross-Validation**:
-- Outer CV for unbiased model evaluation
+- Outer CV for robust model evaluation
 - Inner CV with GridSearchCV for hyperparameter optimization
 
 ### Evaluation Metrics
