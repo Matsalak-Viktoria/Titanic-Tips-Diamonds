@@ -121,7 +121,7 @@ The project workflow includes:
 - RMSE (Root Mean Squared Error)
 - MAE (Mean Absolute Error)
 
-### Experimental Configurations
+## Experimental Configurations
 Different preprocessing combinations were tested:
 - Mean Imputation + StandardScaler
 - Median Imputation + StandardScaler
