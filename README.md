@@ -19,7 +19,7 @@ The main objectives of this project are:
   - **Tip amount prediction** - Predict the restaurant tip amount based on customer and bill information.
   - **Diamond price prediction** - Predict the price of a diamond based on its physical characteristics.
 - Investigate how different preprocessing strategies (missing value imputation and feature scaling) affect KNN model performance. 
-- Analyze and compare experimental results to identify the most effective configurations.
+- Analyze experimental results to identify the most effective model configurations.
  
 ## Datasets
 
