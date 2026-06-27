@@ -71,7 +71,7 @@ The project workflow includes:
       - Train/Test split
       - Pipeline Setup
       - Inner Cross-Validation with GridSearchCV
-         - Data Preprocessing (Imputation, Encoding, Scaling)
+         - Data Preprocessing (Imputation, Scaling, Encoding)
          - KNN Model Training
          - Hyperparameter Optimization
       - Prediction on Unseen Test Data
