@@ -14,6 +14,7 @@ For each task, multiple experiments were conducted using different preprocessing
 
 ## Objectives
 The main objectives of this project are:
+- Perform Exploratory Data Analysis (EDA) to understand feature distributions and relationships with the target variable.
 - Build machine learning pipelines for classification and regression tasks:
   - **Passenger survival prediction** - Predict whether a passenger survived based on passenger information.
   - **Tip amount prediction** - Predict the restaurant tip amount based on customer and bill information.
