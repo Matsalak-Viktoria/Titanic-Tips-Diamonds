@@ -73,7 +73,7 @@ The project workflow includes:
       - Inner Cross-Validation with GridSearchCV
          - Data Preprocessing (Imputation, Scaling, Encoding)
          - KNN Model Training
-         - Hyperparameter Optimization
+         - Best Hyperparameter Selection
       - Prediction on Unseen Test Data
       - Model Evaluation  
 4. Result Analysis
