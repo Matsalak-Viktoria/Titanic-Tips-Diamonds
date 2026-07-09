@@ -145,7 +145,7 @@ All four KNN models demonstrated high and stable performance. The mean values of
 
 ![Metrics](Tip_size_metrics.jpg)
 
-Based on the experimental results, all four KNN models demonstrated good performance. However, the models using StandardScaler produced the most accurate and stable predictions. They also achieved lower RMSE and MAE values, as well as smaller standard deviations, than the models using MinMaxScaler. Both imputation strategies (mean and median) produced identical results within the same scaling method, suggesting that the choice between them should be based on the data distribution and the presence of outliers. Therefore, the most effective configuration is StandardScaler combined with either imputation strategy.
+Based on the experimental results, all four KNN models demonstrated good performance. However, the models using StandardScaler produced the most accurate predictions and the most consistent performance across different folds. They also achieved lower RMSE and MAE values, as well as smaller standard deviations, than the models using MinMaxScaler. Both imputation strategies (mean and median) produced identical results within the same scaling method, suggesting that the choice between them should be based on the data distribution and the presence of outliers. Therefore, the most effective configuration is StandardScaler combined with either imputation strategy.
 
 ### 3. Diamond Price Prediction (Regression)  
 
