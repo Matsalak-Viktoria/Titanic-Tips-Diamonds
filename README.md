@@ -16,9 +16,9 @@ For each task, multiple experiments were conducted using different preprocessing
 The main objectives of this project are:
 - Perform Exploratory Data Analysis (EDA) to understand feature distributions and relationships with the target variable.
 - Build machine learning pipelines for classification and regression tasks:
-  - **Passenger survival prediction** - Predict whether a passenger survived based on passenger information.
-  - **Tip amount prediction** - Predict the restaurant tip amount based on customer and bill information.
-  - **Diamond price prediction** - Predict the price of a diamond based on its physical characteristics.
+  - **Passenger Survival Prediction** - Predict whether a passenger survived based on passenger information.
+  - **Tip Amount Prediction** - Predict the restaurant tip amount based on customer and bill information.
+  - **Diamond Price Prediction** - Predict the price of a diamond based on its physical characteristics.
 - Investigate how different preprocessing strategies (missing value imputation and feature scaling) affect KNN model performance. 
 - Analyze experimental results to identify the most effective model configurations.
  
