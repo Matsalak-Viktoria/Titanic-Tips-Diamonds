@@ -139,17 +139,25 @@ The following figures summarize model performance under different preprocessing 
 
 ![Metrics](Passenger_survival_metrics.jpg)
 
-All four KNN models demonstrated high and stable performance. The mean values of Accuracy, Precision, Recall, and F1-score differ only slightly, indicating balanced model performance without favoring any particular class. The low standard deviations further confirm the robustness of the results across different training and test splits. Models using StandardScaler (with both mean and median imputation) achieved better average performance than those using MinMaxScaler. Regarding the impact of the imputation strategy, the results also depend on the scaling method: with StandardScaler, median imputation achieved slightly better performance, whereas with MinMaxScaler, mean imputation produced slightly higher average metrics. This suggests that the choice of imputation and scaling strategies should be based on the data distribution and the presence of outliers. Considering all experimental results, the model configured with impute_strategy = median and scale_strategy = standard can be regarded as the optimal configuration, as it achieved the best combination of average performance and stability.
+All four KNN models demonstrated high and stable performance. The mean values of Accuracy, Precision, Recall, and F1-score differ only slightly, indicating balanced model performance without favoring any particular class. The low standard deviations further confirm the robustness of the results across different training and test splits. Models using StandardScaler (with both mean and median imputation) achieved better average performance than those using MinMaxScaler.
+
+Regarding the impact of the imputation strategy, the results also depend on the scaling method. With StandardScaler, median imputation achieved slightly better performance, whereas with MinMaxScaler, mean imputation produced slightly higher average metrics. This suggests that the choice of imputation and scaling strategies should be based on the data distribution and the presence of outliers.
+
+Considering all experimental results, the model configured with impute_strategy = median and scale_strategy = standard can be regarded as the optimal configuration, as it achieved the best combination of average performance and stability.
 
 ### 2. Tip Amount Prediction (Regression) 
 
 ![Metrics](Tip_size_metrics.jpg)
 
-Based on the experimental results, all four KNN models demonstrated good performance. However, the models using StandardScaler produced the most accurate predictions and showed the highest stability across different folds. They also achieved lower RMSE and MAE values, as well as smaller standard deviations, than the models using MinMaxScaler. Both imputation strategies (mean and median) produced identical results within the same scaling method, suggesting that the choice between them should be based on the data distribution and the presence of outliers. Therefore, the most effective configuration is StandardScaler combined with either imputation strategy.
+Based on the experimental results, all four KNN models demonstrated good performance. However, the models using StandardScaler produced the most accurate predictions and showed the highest stability across different folds. They also achieved lower RMSE and MAE values, as well as smaller standard deviations, than the models using MinMaxScaler.
+
+Both imputation strategies (mean and median) produced identical results within the same scaling method, suggesting that the choice between them should be based on the data distribution and the presence of outliers. Therefore, the most effective configuration is StandardScaler combined with either imputation strategy.
 
 ### 3. Diamond Price Prediction (Regression)  
 
 ![Metrics](Diamond_price_metrics.jpg)
 
-The experimental results showed that all four KNN models demonstrated similar performance; however, certain differences can be observed depending on the scaling method. Models using MinMaxScaler achieved lower average errors (RMSE and MAE), indicating more accurate predictions, but slightly lower stability due to higher standard deviations. In contrast, models using StandardScaler were more stable, although they were less accurate. Imputing missing values using either the mean or median produced identical results, indicating that the choice between them does not affect prediction quality. Overall, the most balanced configuration is MinMaxScaler combined with either imputation strategy.
+The experimental results showed that all four KNN models demonstrated similar performance; however, certain differences can be observed depending on the scaling method. Models using MinMaxScaler achieved lower average errors (RMSE and MAE), indicating more accurate predictions, but slightly lower stability due to higher standard deviations. In contrast, models using StandardScaler were more stable, although they were less accurate.
+
+Imputing missing values using either the mean or median produced identical results, indicating that the choice between them does not affect prediction quality. Overall, the most balanced configuration is MinMaxScaler combined with either imputation strategy.
   
