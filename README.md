@@ -6,9 +6,9 @@ This project explores the implementation and evaluation of machine learning pipe
 The main goal of the project is not only to build predictive models, but also to investigate how different data preprocessing techniques influence the performance of K-Nearest Neighbors (KNN) models.
 
 The project focuses on the following prediction problems:
-- Titanic Dataset - Predicting passenger survival (classification)
-- Tips Dataset - Predicting tip amount (regression)
-- Diamonds Dataset - Predicting diamond price (regression)
+- Titanic Dataset - Predicting Passenger Survival (Classification)
+- Tips Dataset - Predicting Tip Amount (Regression)
+- Diamonds Dataset - Predicting Diamond Price (Regression)
 
 For each task, multiple experiments were conducted using different preprocessing strategies and nested cross-validation for hyperparameter optimization and reliable model evaluation in order to compare predictive performance, robustness, and stability across different configurations.
 
