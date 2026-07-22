@@ -69,7 +69,7 @@ The project workflow includes:
 3. Model Training and Evaluation
    - Outer Cross-Validation
       - Train/Test Split
-      - Pipeline Setup
+      - Model Training Pipeline Setup
       - Inner Cross-Validation with GridSearchCV
          - Data Preprocessing (Imputation, Scaling, Encoding)
          - KNN Model Training
