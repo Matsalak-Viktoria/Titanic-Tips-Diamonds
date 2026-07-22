@@ -68,7 +68,7 @@ The project workflow includes:
 2. Feature Selection (only for Titanic dataset)
 3. Model Training and Evaluation
    - Outer Cross-Validation
-      - Train/Test split
+      - Train/Test Split
       - Pipeline Setup
       - Inner Cross-Validation with GridSearchCV
          - Data Preprocessing (Imputation, Scaling, Encoding)
