@@ -137,7 +137,7 @@ The following figures summarize model performance under different preprocessing 
 
 ### 1. Passenger Survival Prediction (Classification)  
 
-![Metrics](Passenger_Survival_Metrics.jpg)
+![Passenger Survival Model Performance Comparison](Passenger_Survival_Metrics.jpg)
 
 All four KNN models demonstrated high and stable performance. The mean values of Accuracy, Precision, Recall, and F1-score differ only slightly, indicating balanced model performance without favoring any particular class. The low standard deviations further confirm the robustness of the results across different training and test splits. Models using StandardScaler (with both mean and median imputation) achieved better average performance than those using MinMaxScaler.
 
@@ -147,7 +147,7 @@ Considering all experimental results, the model configured with impute_strategy 
 
 ### 2. Tip Amount Prediction (Regression) 
 
-![Metrics](Tip_Amount_Metrics.jpg)
+![Tip Amount Model Performance Comparison](Tip_Amount_Metrics.jpg)
 
 Based on the experimental results, all four KNN models demonstrated good performance. However, the models using StandardScaler produced the most accurate predictions and showed the highest stability across different folds. They also achieved lower RMSE and MAE values, as well as smaller standard deviations, than the models using MinMaxScaler.
 
@@ -155,7 +155,7 @@ Both imputation strategies (mean and median) produced identical results within t
 
 ### 3. Diamond Price Prediction (Regression)  
 
-![Metrics](Diamond_Price_Metrics.jpg)
+![Diamond Price Model Performance Comparison](Diamond_Price_Metrics.jpg)
 
 The experimental results showed that all four KNN models demonstrated similar performance; however, certain differences can be observed depending on the scaling method. Models using MinMaxScaler achieved lower average errors (RMSE and MAE), indicating more accurate predictions, but slightly lower stability due to higher standard deviations. In contrast, models using StandardScaler were more stable, although they were less accurate.
 
